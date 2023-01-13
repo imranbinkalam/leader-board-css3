@@ -1,5 +1,5 @@
 /* Font style */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Slab:wght@400;600;800&family=Signika:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Slab:wght@400;600;800&family=Signika:wght@400;500&display=swap');
 
 /* Common Styles */
 body {
@@ -26,6 +26,61 @@ hr {
     margin-top: 21px;
     border-radius: 5px;
 }
+
+/* Header part styles */
+/* .head-bar {
+    width: 1440px;
+    background-color: #562EFF;
+    margin: 0 auto;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 94px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 40px;
+    height: 51px;
+    display: block;
+}
+
+.logo .logo-name {
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.navigation li {
+    list-style-type: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navigation img {
+    width: 51px;
+    height: 51px;
+} */
 
 /* Top Player styles */
 .top-players {
@@ -102,9 +157,10 @@ hr {
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-evenly;
     column-gap: 20px;
-    
+
 }
-.course{
+
+.course {
     border-radius: 10px;
     width: 250px;
     height: 270px;
@@ -131,21 +187,30 @@ hr {
     color: #AEAEAE;
 }
 
-.course-info span{
+.course-info span {
     color: #A2A2A2;
 }
 
-.course-title{
+.course-title {
     font-size: 20px;
 }
-.course-author{
+
+.course-author {
     color: #ED6B4F;
     font-size: 15px;
     margin-top: -10px;
 }
+
 .course-duration {
     padding: 5px;
     background: #FFE4E8;
     border-radius: 15.6913px;
     color: #FF4A60;
+}
+
+/* @media Queries */
+@media only screen and (max-width: 688px) {
+    .header-container{
+        width: 566px;
+    }
 }
